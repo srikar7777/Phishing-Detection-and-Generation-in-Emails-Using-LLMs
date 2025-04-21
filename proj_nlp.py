@@ -129,7 +129,6 @@ ConfusionMatrixDisplay(cm, display_labels=["Ham", "Phish"]).plot(cmap="Blues")
 plt.title("Confusion Matrix")
 plt.show()
 
-
 from bert_score import score as bertscore
 from rouge_score import rouge_scorer
 import nltk
